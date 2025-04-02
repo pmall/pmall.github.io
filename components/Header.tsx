@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import profile from "@/app/profile.jpeg";
 import type { Locale } from "@/i18n";
@@ -26,14 +27,14 @@ export function Header({ locale }: { locale: Locale }) {
           </a>
         </div>
         <div className="flex flex-wrap justify-center md:justify-start gap-3">
-          <a
+          <Link
             href="mailto:pierre.mallinjoud@gmail.com"
             className="flex items-center gap-1 text-sm text-gray-600 hover:text-blue-600"
           >
             <Mail className="h-4 w-4" />
             <span>Email</span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://github.com/pmall"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,8 +42,8 @@ export function Header({ locale }: { locale: Locale }) {
           >
             <Github className="h-4 w-4" />
             <span>GitHub</span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/pierre-mallinjoud-08346a83/"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +51,7 @@ export function Header({ locale }: { locale: Locale }) {
           >
             <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
-          </a>
+          </Link>
         </div>
       </div>
     </header>

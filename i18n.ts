@@ -28,6 +28,11 @@ export const downloadResume = {
   fr: "Télécharger mon CV",
 };
 
+export const madeWith = {
+  en: "Made with Nextjs and Tailwindcss",
+  fr: "Fait avec Nextjs et Tailwindcss",
+};
+
 // project translations.
 export const enyopharma_name = {
   en: "Previous work at EnyoPharma",

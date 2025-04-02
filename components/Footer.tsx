@@ -1,4 +1,8 @@
-export function Footer() {
+import Link from "next/link";
+import * as i18n from "@/i18n";
+import type { Locale } from "@/i18n";
+
+export function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="container mx-auto px-4 py-6 max-w-4xl">
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
@@ -8,24 +12,13 @@ export function Footer() {
           </a>
         </p>
         <div className="flex items-center gap-2 text-sm text-gray-500">
-          <span>
-            Made with{" "}
-            <a
-              href="https://https://nextjs.org/"
-              target="_blank"
-              className="underline"
-            >
-              Nextjs
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://tailwindcss.com/"
-              target="_blank"
-              className="underline"
-            >
-              tailwindcss
-            </a>
-          </span>
+          <Link
+            href="https://github.com/pmall/pmall.github.io"
+            target="_blank"
+            className="underline"
+          >
+            {i18n.madeWith[locale]}
+          </Link>
         </div>
       </div>
     </footer>

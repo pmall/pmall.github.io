@@ -33,7 +33,7 @@ export default async function RootLayout({
             </div>
             {children}
             <div className="mt-16 border-t border-gray-100">
-              <Footer />
+              <Footer locale={locale} />
             </div>
           </div>
         </main>
