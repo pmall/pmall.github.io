@@ -1,10 +1,13 @@
 import type { Project } from "@/projects";
+import { ProjectDescription } from "./ProjectDescription";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="border border-gray-100 rounded-lg p-6 hover:shadow-sm transition-shadow">
       <h3 className="text-lg font-medium text-gray-900 mb-2">{project.name}</h3>
-      <p className="text-gray-600 mb-4">{project.description}</p>
+      <div className="text-gray-600 mb-4">
+        <ProjectDescription>{project.description}</ProjectDescription>
+      </div>
       <ul className="mb-4 list-disc pl-5">
         {project.links.map((link, i) => (
           <li key={i} className="mb-1">
