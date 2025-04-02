@@ -1,12 +1,14 @@
 import type { Locale } from "@/i18n";
-import { getProjects } from "@/projects";
-import { ProjectList } from "@/components/ProjectList";
+import { Page } from "@/components/Page";
+
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }];
+}
 
 export default async function Home({
   params,
 }: Readonly<{ params: Promise<{ locale: Locale }> }>) {
   const { locale } = await params;
-  const projects = getProjects(locale);
 
-  return <ProjectList projects={projects} />;
+  return <Page locale={locale} />;
 }
