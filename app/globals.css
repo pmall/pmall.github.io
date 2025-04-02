@@ -11,3 +11,7 @@
 .markdown a {
   @apply text-blue-600
 }
+
+.markdown blockquote {
+  @apply pl-4 border-l-4
+}
