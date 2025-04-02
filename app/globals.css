@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.markdown {
+  @apply flex flex-col gap-4
+}
+
+.markdown ul {
+  @apply list-disc pl-5
+}

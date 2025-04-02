@@ -3,5 +3,9 @@
 import { Remark } from "react-remark";
 
 export function ProjectDescription({ children }: { children: string }) {
-  return <Remark>{children}</Remark>;
+  return (
+    <div className="markdown">
+      <Remark>{children}</Remark>
+    </div>
+  );
 }
