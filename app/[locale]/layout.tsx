@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   description: "Pierre Mallinjoud portfolio",
 };
 
+export async function generateStaticParams() {
+  return [{ locale: "en" }, { locale: "fr" }];
+}
+
 export default async function RootLayout({
   params,
   children,
