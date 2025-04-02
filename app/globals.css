@@ -7,3 +7,7 @@
 .markdown ul {
   @apply list-disc pl-5
 }
+
+.markdown a {
+  @apply text-blue-600
+}

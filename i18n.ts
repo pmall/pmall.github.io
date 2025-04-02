@@ -40,7 +40,7 @@ export const enyopharma_name = {
 };
 
 const enyopharma_description_en = `
-At EnyoPharma, I worked as a bioinformatics engineer in the R&D team, collaborating closely with biologists to study human-virus protein-protein interactions. The biologists curated scientific publications to manually extract protein-protein interaction data.
+At [EnyoPharma](https://enyopharma.com/), I worked as a bioinformatics engineer in the R&D team, collaborating closely with biologists to study human-virus protein-protein interactions. The biologists curated scientific publications to manually extract protein-protein interaction data.
 
 To support this effort, I developed two full-stack applications:
 
@@ -56,7 +56,7 @@ Both applications share the same technology stack:
 Additionally, I developed Perl scripts to transform the Drakkar database into Vinland. This work and the curated data contributed to a published scientific article.`;
 
 const enyopharma_description_fr = `
-Chez EnyoPharma, j'ai travaillé en tant qu'ingénieur en bioinformatique au sein de l'équipe R&D, en collaboration étroite avec des biologistes sur les interactions protéine-protéine entre l'humain et les virus. Les biologistes effectuaient une curation manuelle des publications scientifiques pour extraire ces interactions.
+Chez [EnyoPharma](https://enyopharma.com/fr), j'ai travaillé en tant qu'ingénieur en bioinformatique au sein de l'équipe R&D, en collaboration étroite avec des biologistes sur les interactions protéine-protéine entre l'humain et les virus. Les biologistes effectuaient une curation manuelle des publications scientifiques pour extraire ces interactions.
 
 Pour soutenir ce travail, j'ai développé deux applications full-stack :
 
@@ -74,6 +74,30 @@ J'ai également développé des scripts Perl pour générer la base de données 
 export const enyopharma_description = {
   en: enyopharma_description_en,
   fr: enyopharma_description_fr,
+};
+
+export const crcl_name = {
+  en: "Experience at CRCL",
+  fr: "Expérience au CRCL",
+};
+
+const crcl_description_en = `
+At the [Cancer Research Center of Lyon (CRCL)](https://www.crcl.fr/en/home/), I conducted a genome-wide analysis to annotate alternative splicing events and developed a database to store these annotations.
+
+Additionally, I analyzed data from various in-house and publicly available Affymetrix exon-level microarrays. I mapped the probes from these full-length microarrays to my own alternative splicing annotations, creating a comprehensive repository of results stored in a database.
+
+This work contributed to a scientific publication and is available online at [FASTERDB](https://fasterdb.ens-lyon.fr/).`;
+
+const crcl_description_fr = `
+Au Centre de [Recherche en Cancérologie de Lyon (CRCL)](https://www.crcl.fr), j'ai réalisé une analyse à l'échelle du génome afin d'annoter les événements d'épissage alternatif et j'ai développé une base de données pour stocker ces annotations.
+
+J'ai également analysé les résultats de nombreuses experiences de puces à ADN Affymetrix exon-level, issues de données internes et de sources publiques. J'ai mappé les sondes de ces puces full-length en les associant à mes propres annotations d'épissage alternatif, créant ainsi un répertoire complet des résultats, stocké dans une base de données.
+
+Ce travail a contribué à une publication scientifique et est disponible en ligne sur [FASTERDB](https://fasterdb.ens-lyon.fr/).`;
+
+export const crcl_description = {
+  en: crcl_description_en,
+  fr: crcl_description_fr,
 };
 
 export const abstracts_ppi_name = {

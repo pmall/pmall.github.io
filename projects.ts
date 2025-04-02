@@ -35,7 +35,14 @@ const projects = [
       "docker",
       "database",
       "postgresql",
+      "uniprot",
     ],
+  },
+  {
+    name: i18n.crcl_name,
+    description: i18n.crcl_description,
+    links: [],
+    tags: ["perl", "R", "sql", "mysql", "genbank", "microarrays", "affymetrix"],
   },
   {
     name: i18n.abstracts_ppi_name,
