@@ -1,6 +1,6 @@
 export const abstracts_ppi_name = {
   en: "Fine tuning of a binary classification model",
-  fr: "Fine tuning d'un modele de classification binaire",
+  fr: "Fine tuning d'un modèle de classification binaire",
 };
 
 const abstracts_ppi_description_en = `
