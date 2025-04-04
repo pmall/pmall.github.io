@@ -41,8 +41,17 @@ const projects = [
   {
     name: i18n.crcl_name,
     description: i18n.crcl_description,
-    links: [],
-    tags: ["perl", "R", "sql", "mysql", "genbank", "microarrays", "affymetrix"],
+    links: ["https://fasterdb.ens-lyon.fr/"],
+    tags: [
+      "perl",
+      "R",
+      "sql",
+      "mysql",
+      "genbank",
+      "microarrays",
+      "affymetrix",
+      "blast",
+    ],
   },
   {
     name: i18n.abstracts_ppi_name,

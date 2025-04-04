@@ -10,22 +10,24 @@ const publication = `
 > [doi:10.1101/gr.162933.113](https://pubmed.ncbi.nlm.nih.gov/24307554/)`;
 
 const crcl_description_en = `
-At the [Cancer Research Center of Lyon](https://www.crcl.fr/en/home/) (CRCL), I conducted a genome-wide analysis to annotate alternative splicing events and developed a database to store these annotations.
+At the [CRCL](https://www.crcl.fr/en/home/) (Cancer Research Center of Lyon), I built a database cataloging alternative splicing events of the human and mouse genomes.
+To do so, I started from messenger RNA sequences available in [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), which I aligned to the human and mouse reference genomes.
 
-Additionally, I analyzed data from various in-house and publicly available Affymetrix exon-level microarrays.
-I mapped the probes from these full-length microarrays to my own alternative splicing annotations, creating a comprehensive repository of results stored in a database.
+I then mapped Affymetrix exon array probes onto this annotation.
+This allowed me to create another database compiling differential splicing expression data from numerous experiments, both public and internal to the lab.
 
 This work contributed to a scientific publication and is available online at [FASTERDB](https://fasterdb.ens-lyon.fr/).
 
 ${publication}`;
 
 const crcl_description_fr = `
-Au Centre de [Recherche en Cancérologie de Lyon](https://www.crcl.fr) (CRCL), j'ai réalisé une analyse à l'échelle du génome afin d'annoter les événements d'épissage alternatif et j'ai développé une base de données pour stocker ces annotations.
+Au [CRCL](https://www.crcl.fr/) (Centre de Recherche en Cancérologie de Lyon), j'ai conçu une base de données répertoriant les événements d'épissage alternatif des génomes humain et souris.
+Pour cela, je suis parti des séquences d'ARN messager disponibles dans [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), que j'ai alignées sur les génomes de référence humain et souris.
 
-J'ai également analysé les résultats de nombreuses experiences de puces à ADN Affymetrix exon-level, issues de données internes et de sources publiques.
-J'ai mappé les sondes de ces puces full-length en les associant à mes propres annotations d'épissage alternatif, créant ainsi un répertoire complet des résultats, stocké dans une base de données.
+J’ai ensuite mappé les sondes des puces Affymetrix exon array sur cette annotation.
+Cela m’a permis de créer une autre base de données recensant les données d'expression différentielle des événements d'épissage issues de nombreuses expériences, à la fois publiques et internes au laboratoire.
 
-Ce travail a contribué à une publication scientifique et est disponible en ligne sur [FASTERDB](https://fasterdb.ens-lyon.fr/).
+Ce travail a contribué à une publication scientifique et est accessible en ligne à l'adresse suivante : [FASTERDB](https://fasterdb.ens-lyon.fr/).
 
 ${publication}`;
 
