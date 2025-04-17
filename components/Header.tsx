@@ -18,7 +18,7 @@ export function Header({ locale }: { locale: Locale }) {
         <p className="text-gray-600 mb-4">{i18n.description[locale]}</p>
         <div className="mb-4">
           <a
-            href="/pierre-mallinjoud-cv.pdf"
+            href={i18n.resumeFilePath[locale]}
             className="inline-flex items-center gap-2 text-sm bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
             download
           >

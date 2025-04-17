@@ -23,6 +23,11 @@ export const description = {
   fr: description_fr,
 };
 
+export const resumeFilePath = {
+  en: "/pierre-mallinjoud-resume-en.pdf",
+  fr: "/pierre-mallinjoud-cv-fr.pdf",
+};
+
 export const downloadResume = {
   en: "Download my resume",
   fr: "Télécharger mon CV",
