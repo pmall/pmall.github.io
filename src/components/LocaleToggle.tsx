@@ -1,6 +1,6 @@
 import Link from "next/link";
-import type { Locale } from "@/i18n";
 import { Globe } from "lucide-react";
+import type { Locale } from "@/i18n";
 
 export function LocaleToggle({ locale }: { locale: Locale }) {
   const href = locale == "en" ? "/fr" : "/en";

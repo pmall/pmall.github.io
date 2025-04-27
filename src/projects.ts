@@ -1,5 +1,5 @@
-import * as i18n from "./i18n";
-import type { Locale } from "./i18n";
+import * as i18n from "@/i18n";
+import type { Locale } from "@/i18n";
 
 export type Project = {
   name: string;
@@ -21,6 +21,7 @@ const projects = [
     name: i18n.enyopharma_name,
     description: i18n.enyopharma_description,
     links: [
+      "https://vinland.network",
       "https://github.com/enyopharma/drakkar-web",
       "https://github.com/enyopharma/vinland-web",
       "https://github.com/enyopharma/vinland-scripts",

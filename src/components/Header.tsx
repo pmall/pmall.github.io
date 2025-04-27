@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import profile from "@/app/profile.jpeg";
+import { Mail, FileText, Github, Linkedin } from "lucide-react";
 import type { Locale } from "@/i18n";
 import * as i18n from "@/i18n";
-import { Mail, FileText, Github, Linkedin } from "lucide-react";
+import profile from "@/app/profile.jpeg";
 
 export function Header({ locale }: { locale: Locale }) {
   return (
