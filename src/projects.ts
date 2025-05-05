@@ -71,7 +71,10 @@ const projects = [
   {
     name: i18n.smolanalyst_name,
     description: i18n.smolanalyst_description,
-    links: ["https://github.com/smolanalyst/smolanalyst"],
+    links: [
+      "https://github.com/smolanalyst/smolanalyst",
+      "https://github.com/pmall/novagent",
+    ],
     tags: [
       "python",
       "pandas",
