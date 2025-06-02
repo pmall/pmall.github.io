@@ -31,6 +31,7 @@ const projects = [
       "javascript",
       "php",
       "perl",
+      "python",
       "sql",
       "reactjs",
       "docker",
