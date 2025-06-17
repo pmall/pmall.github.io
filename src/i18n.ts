@@ -43,3 +43,4 @@ export * from "@/projects/crcl";
 export * from "@/projects/enyopharma";
 export * from "@/projects/abstracts-ppi";
 export * from "@/projects/smolanalyst";
+export * from "@/projects/mc_arc";
