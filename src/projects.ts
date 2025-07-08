@@ -70,6 +70,21 @@ const projects = [
     ],
   },
   {
+    name: i18n.rag_name,
+    description: i18n.rag_description,
+    links: ["https://github.com/pmall/rag-url"],
+    tags: [
+      "python",
+      "ai agent",
+      "rag",
+      "llm",
+      "prompting",
+      "gemini",
+      "pydantic-ai",
+      "lancedb",
+    ],
+  },
+  {
     name: i18n.smolanalyst_name,
     description: i18n.smolanalyst_description,
     links: [
