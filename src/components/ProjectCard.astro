@@ -8,8 +8,9 @@ interface Props {
 
 const { project } = Astro.props;
 const { Content } = await render(project);
+const slugId = project.id.split('/').pop();
 ---
-<div class="border border-gray-100 rounded-lg p-6 hover:shadow-sm transition-shadow">
+<div id={slugId} class="border border-gray-100 rounded-lg p-6 hover:shadow-sm transition-shadow scroll-mt-8">
   <h3 class="text-lg font-medium text-gray-900 mb-2">{project.data.title}</h3>
   <div class="text-gray-600 mb-4 markdown">
     <Content />

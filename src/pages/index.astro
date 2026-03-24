@@ -1,20 +1,4 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ProjectList from '../components/ProjectList.astro';
-import { getCollection } from 'astro:content';
-
-const orderedIds = [
-  'en/enyopharma',
-  'en/crcl',
-  'en/abstracts-ppi',
-  'en/rag',
-  'en/smolanalyst',
-  'en/mc_arc'
-];
-
-const allProjects = await getCollection('projects');
-const projects = orderedIds.map(id => allProjects.find(p => p.id === id)).filter(Boolean);
+import EnIndex from './en/index.astro';
 ---
-<Layout locale="en">
-  <ProjectList projects={projects} />
-</Layout>
+<EnIndex />

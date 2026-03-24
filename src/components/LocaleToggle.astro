@@ -1,6 +1,5 @@
 ---
 import { Globe } from 'lucide-astro';
-import { getRelativeLocaleUrl } from 'astro:i18n';
 
 interface Props {
   locale: 'en' | 'fr';
@@ -9,7 +8,7 @@ const { locale } = Astro.props;
 const targetLocale = locale === 'en' ? 'fr' : 'en';
 const text = locale === 'en' ? 'Français' : 'English';
 
-const href = getRelativeLocaleUrl(targetLocale);
+const href = `/${targetLocale}`;
 ---
 
 <div class="flex justify-end mb-6">
