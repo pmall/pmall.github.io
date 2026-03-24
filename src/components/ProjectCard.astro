@@ -1,0 +1,44 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+---
+<div class="border border-gray-100 rounded-lg p-6 hover:shadow-sm transition-shadow">
+  <h3 class="text-lg font-medium text-gray-900 mb-2">{project.data.title}</h3>
+  <div class="text-gray-600 mb-4 markdown">
+    <Content />
+  </div>
+  {project.data.links.length > 0 && (
+    <ul class="mb-4 list-disc pl-5">
+      {project.data.links.map((link: string) => (
+        <li class="mb-1">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-600 hover:underline text-sm"
+          >
+            {link}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+  {project.data.tags.length > 0 && (
+    <div class="flex flex-wrap gap-2">
+      {project.data.tags.map((tag: string) => (
+        <span
+          class="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100"
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  )}
+</div>

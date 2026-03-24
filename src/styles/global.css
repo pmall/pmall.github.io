@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.markdown {
+  @apply flex flex-col gap-4;
+}
+
+.markdown ul {
+  @apply list-disc pl-5;
+}
+
+.markdown a {
+  @apply text-blue-600 hover:underline;
+}
+
+.markdown blockquote {
+  @apply pl-4 border-l-4 border-gray-300 italic text-gray-700;
+}

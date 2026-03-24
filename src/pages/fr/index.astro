@@ -1,20 +1,20 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ProjectList from '../components/ProjectList.astro';
+import Layout from '../../layouts/Layout.astro';
+import ProjectList from '../../components/ProjectList.astro';
 import { getCollection } from 'astro:content';
 
 const orderedIds = [
-  'en/enyopharma',
-  'en/crcl',
-  'en/abstracts-ppi',
-  'en/rag',
-  'en/smolanalyst',
-  'en/mc_arc'
+  'fr/enyopharma',
+  'fr/crcl',
+  'fr/abstracts-ppi',
+  'fr/rag',
+  'fr/smolanalyst',
+  'fr/mc_arc'
 ];
 
 const allProjects = await getCollection('projects');
 const projects = orderedIds.map(id => allProjects.find(p => p.id === id)).filter(Boolean);
 ---
-<Layout locale="en">
+<Layout locale="fr">
   <ProjectList projects={projects} />
 </Layout>
