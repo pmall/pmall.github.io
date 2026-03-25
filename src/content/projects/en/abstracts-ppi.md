@@ -16,7 +16,7 @@ I used a dataset of approximately 80,000 manually curated scientific publication
 Each abstract is labeled based on whether it comes from a publication describing protein-protein interactions or not.
 I believe this dataset provides a highly relevant real-world example for practicing fine-tuning.
 
-To conduct this study, I used the [Huggingface](https://huggingface.co) library to fine-tune a pretrained model into a binary classifier.
+To conduct this study, I used the [Hugging Face](https://huggingface.co) library to fine-tune a pretrained model into a binary classifier.
 The goal is not to create a perfect model but to go through the entire fine-tuning process, understand each step involved, and explore potential ways to improve the model.
 
-The study is documented in its github repository and jupyter notebooks.
+The study is documented in its GitHub repository and Jupyter notebooks.

@@ -14,7 +14,7 @@ tags:
 ---
 Je développe **MC Architecture** (Master of Ceremony), un framework expérimental qui permet à plusieurs agents IA de participer à des conversations de groupe naturelles, avec un tour de parole fluide et contextuel.
 
-Contrairement aux systèmes multi-agents traditionnels, pilotés par un contrôleur central, MC Architecture adopte une approche plus organique : les agents prennent la parole à tour de rôle en fonction du contexte partagé — comme dans une discussion d’équipe où chacun suit l’historique complet, mais un seul parle à la fois.
+Contrairement aux systèmes multi-agents traditionnels, pilotés par un contrôleur central, MC Architecture adopte une approche plus organique : les agents prennent la parole à tour de rôle en fonction du contexte partagé - comme dans une discussion d’équipe où chacun suit l’historique complet, mais un seul parle à la fois.
 
 Le framework est entièrement agnostique vis-à-vis des agents et des modèles, et fonctionne comme une couche légère au-dessus de n’importe quelle bibliothèque d’IA. J’ai notamment intégré PydanticAI, avec une sélection intelligente des intervenants pour assurer la cohérence du dialogue.
 

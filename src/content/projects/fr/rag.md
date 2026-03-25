@@ -21,6 +21,6 @@ Le pipeline comprend quatre étapes :
 - **Scrape** : Exploration du site et extraction du contenu en Markdown nettoyé
 - **Chunk** : Segmentation sémantique avec un modèle Gemini
 - **Embed** : Vectorisation avec Gemini et stockage dans LanceDB
-- **Agent** : Agent interactif en ligne de commande, construit avec `pydantic-ai`, interrogeant la base via Gemini
+- **Agent** : Agent interactif en ligne de commande, construit avec PydanticAI, interrogeant la base via Gemini
 
 Le système repose entièrement sur les modèles Gemini et n’est pas extensible pour l’instant.

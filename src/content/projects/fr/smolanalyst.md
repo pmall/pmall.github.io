@@ -16,10 +16,10 @@ tags:
 ---
 Dans le cadre de mon exploration de l'IA, je développe **smolanalyst**, un agent IA open-source destiné à assister les data scientists dans l'analyse et la visualisation de données.
 
-Smolanalyst repose sur [smolagent de Huggingface](https://huggingface.co/docs/smolagents), un agent IA capable de générer et d'exécuter des blocs de code python.
+Smolanalyst repose sur [smolagents de Hugging Face](https://huggingface.co/docs/smolagents), un agent IA capable de générer et d'exécuter des blocs de code Python.
 Je teste différentes approches pour enrichir ses fonctionnalités et en faire un agent polyvalent pour l'analyse de données.
 
-Actuellement, smolanalyst prend en charge pandas et matplotlib, lui permettant de produire et d'exécuter des snippets python pour la manipulation et la visualisation de données.
+Actuellement, smolanalyst prend en charge Pandas et Matplotlib, lui permettant de produire et d'exécuter des snippets Python pour la manipulation et la visualisation de données.
 Mon objectif est de fournir une interface en ligne de commande sécurisée et facile à utiliser afin d'améliorer l'accessibilité et l'expérience utilisateur.
 
 Ce projet est une expérimentation continue visant à explorer de nouvelles solutions pour rendre l'analyse de données assistée par IA plus efficace et pratique.

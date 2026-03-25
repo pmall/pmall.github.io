@@ -13,7 +13,7 @@ tags:
   - "blast"
 ---
 At the [CRCL](https://www.crcl.fr/en/home/) (Cancer Research Center of Lyon), I built a database cataloging alternative splicing events of the human and mouse genomes.
-To do so, I started from messenger RNA sequences available in [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), which I aligned to the human and mouse reference genomes.
+To do so, I started from messenger RNA sequences available in **GenBank**, which I aligned to the human and mouse reference genomes.
 
 I then mapped Affymetrix exon array probes onto this annotation.
 This allowed me to create another database compiling differential splicing expression data from numerous experiments, both public and internal to the lab.

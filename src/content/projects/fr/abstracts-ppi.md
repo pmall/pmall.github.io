@@ -16,7 +16,7 @@ J'ai utilisé un jeu de données d'environ 80 000 abstracts de publications scie
 Chaque abstract est étiqueté selon qu'il provient ou non d'une publication décrivant des interactions protéine-protéine.
 Je pense que ce jeu de données constitue un excellent cas d'application réel pour s'entraîner au fine-tuning.
 
-Pour mener cette étude, j'ai utilisé la bibliothèque [Huggingface](https://huggingface.co) afin de fine-tuner un modèle préentraîné en classificateur binaire.
+Pour mener cette étude, j'ai utilisé la bibliothèque [Hugging Face](https://huggingface.co) afin de fine-tuner un modèle préentraîné en classificateur binaire.
 L'objectif n'est pas de produire un modèle parfait mais d'explorer l'ensemble du processus de fine-tuning, de comprendre chaque étape et d'étudier des solutions pour améliorer le modèle.
 
-L'étude est documentée dans son dépôt github et les notebooks jupyter.
+L'étude est documentée dans son dépôt GitHub et les notebooks Jupyter.
