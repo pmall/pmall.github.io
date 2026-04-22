@@ -12,9 +12,9 @@ tags:
   - "pydantic-ai"
   - "lancedb"
 ---
-I’m developing **RAG-URL**, a command-line pipeline that transforms a website into a searchable knowledge base, queried through an interactive agent.
+I built **RAG-URL** to explore the architecture of an agentic RAG system end to end.
 
-This is a personal project to explore, step by step, the architecture of a fully agentic Retrieval-Augmented Generation (RAG) system - from web scraping to vector search to LLM-powered interaction.  
+It covers the full workflow from web scraping and content cleaning to semantic chunking, embeddings, vector search, and LLM-powered interaction.  
 
 The system runs in four stages:
 
@@ -23,4 +23,4 @@ The system runs in four stages:
 - **Embed**: Embeds each chunk with Gemini and stores vectors in LanceDB
 - **Agent**: A CLI chatbot built with PydanticAI, querying the database with Gemini
 
-The pipeline is hardwired to use Gemini models and is not yet model-agnostic or extensible.
+The pipeline is built around Gemini models and is not yet model-agnostic or extensible.

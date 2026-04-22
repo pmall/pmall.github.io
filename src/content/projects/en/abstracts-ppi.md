@@ -11,12 +11,8 @@ tags:
   - "transformers"
   - "data science"
 ---
-As part of my exploration into AI, I undertook a side project to learn how to fine-tune a model.
-I used a dataset of approximately 80,000 manually curated scientific publication abstracts from my past work at EnyoPharma.
-Each abstract is labeled based on whether it comes from a publication describing protein-protein interactions or not.
-I believe this dataset provides a highly relevant real-world example for practicing fine-tuning.
+I used a dataset from my past work at [EnyoPharma](https://enyopharma.com/) to learn how to fine-tune a model. It contains about 80,000 manually curated scientific publication abstracts labeled by whether they describe protein-protein interactions or not.
 
-To conduct this study, I used the [Hugging Face](https://huggingface.co) library to fine-tune a pretrained model into a binary classifier.
-The goal is not to create a perfect model but to go through the entire fine-tuning process, understand each step involved, and explore potential ways to improve the model.
+Using the [Hugging Face](https://huggingface.co) library, I fine-tuned a pretrained model into a binary classifier. The goal was not to build a production model, but to go through the full fine-tuning workflow on a real-world dataset and understand where the main improvement levers are.
 
 The study is documented in its GitHub repository and Jupyter notebooks.

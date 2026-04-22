@@ -13,7 +13,7 @@ tags:
   - "cloud"
 ---
 
-Dans le cadre de mon exploration de l'IA générative appliquée à la biologie, j'ai cherché à créer Mímir, un modèle capable de générer de nouveaux peptides liants à partir de la structure 3D de protéines cibles. Il repose sur un fine-tuning d'[ESM3](https://www.evolutionaryscale.ai/), un modèle de langage protéique de 1,4 milliard de paramètres. J'ai développé toute la pipeline d'entraînement moi-même, de la préparation des données à l'entraînement et à l'évaluation sur GPU dans le cloud.
+En explorant l'IA générative appliquée à la biologie, j'ai cherché à créer **Mímir**, un modèle capable de générer de nouveaux peptides liants à partir de la structure 3D de protéines cibles. Il repose sur un fine-tuning d'[ESM3](https://www.evolutionaryscale.ai/), un modèle de langage protéique de 1,4 milliard de paramètres. J'ai développé toute la pipeline d'entraînement moi-même, de la préparation des données à l'entraînement et à l'évaluation sur GPU dans le cloud.
 
 Plutôt que de m'appuyer sur des tutoriels basiques, j'ai développé une pipeline de fine-tuning complète et sur-mesure. Cela a impliqué le déploiement et l'entraînement du modèle de bout en bout sur une infrastructure cloud (GPU H100 via Lightning AI). J'ai dû relever des défis d'ingénierie majeurs pour faire tenir un modèle de cette taille en mémoire, en implémentant des techniques telles que l'optimiseur AdamW 8-bit, le gradient checkpointing, Flash Attention et le bucket batching dynamique.
 

@@ -12,12 +12,10 @@ tags:
   - "gemini"
   - "pydantic-ai"
 ---
-I’m developing **MC Architecture** (Master of Ceremony), an experimental framework that enables multiple AI agents to engage in natural, turn-based group conversations.
+I created **MC Architecture** (Master of Ceremony) as an experiment in multi-agent conversations.
 
-Unlike traditional multi-agent systems where communication is directed by a central controller, MC Architecture lets agents take turns based on shared context - like a group chat where everyone sees the full history, but only one speaks at a time.
+Instead of relying on a central controller to direct every exchange, MC Architecture lets agents take turns based on shared context. The interaction model is closer to a group chat where every participant sees the same history, but only one speaks at a time.
 
-The framework is fully agent-agnostic and model-agnostic, serving as a lightweight wrapper around any AI library. I've demonstrated integration with PydanticAI, with intelligent participant selection to maintain a coherent dialogue flow.
+The framework is both agent-agnostic and model-agnostic, and acts as a lightweight wrapper around existing AI libraries. I integrated it with PydanticAI, including participant selection logic to keep the dialogue coherent.
 
-Originally created for creative storytelling and simulation, the architecture also shows potential for collaborative problem-solving where context awareness and conversational dynamics are essential.
-
-This project is an ongoing experiment in conversation-first coordination, moving beyond rigid orchestration toward more natural multi-agent interaction.
+I originally created it for creative storytelling and simulation, but it also looked promising for collaborative problem-solving where context awareness and conversational dynamics matter.

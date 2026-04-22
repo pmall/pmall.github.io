@@ -13,7 +13,7 @@ tags:
   - "cloud"
 ---
 
-As part of my exploration of generative AI for biology, I set out to build Mímir, a model that could generate new peptide binders from target protein 3D structures. It is based on a fine-tuning of [ESM3](https://www.evolutionaryscale.ai/), a 1.4B-parameter protein language model. I built the full training pipeline myself, from data preparation to training and evaluation on cloud GPUs.
+While exploring generative AI for biology, I set out to build **Mímir**, a model that could generate new peptide binders from target protein 3D structures. It is based on a fine-tuning of [ESM3](https://www.evolutionaryscale.ai/), a 1.4B-parameter protein language model. I built the full training pipeline myself, from data preparation to training and evaluation on cloud GPUs.
 
 Rather than relying on high-level wrappers or basic tutorials, I developed a complete, custom fine-tuning pipeline from scratch. This involved deploying and training the model end-to-end on cloud infrastructure using a Lightning AI H100 GPU. I had to navigate significant engineering challenges to fit a model of this size into memory, implementing techniques like 8-bit AdamW, gradient checkpointing, Flash Attention, and dynamic bucket batching.
 

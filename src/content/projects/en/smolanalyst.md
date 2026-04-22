@@ -14,14 +14,8 @@ tags:
   - "smolagents"
   - "data science"
 ---
-As part of my exploration into AI, I am developing **smolanalyst**, an open-source AI agent designed to assist data scientists in analyzing and visualizing data. 
+I developed **smolanalyst** as an experiment in AI-assisted data analysis and visualization.
 
-Smolanalyst builds on [Hugging Face's smolagents](https://huggingface.co/docs/smolagents), a powerful AI agent capable of generating and executing Python code snippets.
-I am experimenting with various approaches to extend its capabilities, aiming to create a versatile code agent for data analysis.
+It builds on [Hugging Face's smolagents](https://huggingface.co/docs/smolagents) and focuses on generating and executing Python code for Pandas and Matplotlib workflows. My goal was to make this kind of agent practical from the command line, with a safer and more accessible interface for everyday analysis tasks.
 
-Currently, smolanalyst supports Pandas and Matplotlib, allowing it to generate and execute Python snippets for data manipulation and visualization.
-My focus is on providing a secure and user-friendly command-line interface to enhance accessibility and usability.
-
-This project is an ongoing experiment, exploring different ways to make AI-assisted data analysis more efficient and practical.
-
-I am also developing **novagent**, my own code agent library. This project focuses on creating a flexible and extensible framework for building AI-powered coding assistants, complementing my work on smolanalyst while exploring different aspects of AI-assisted development.
+At the same time, I developed **novagent**, my own code agent library. It gave me a more flexible base for experimenting with agent design and complemented the work I did on smolanalyst.

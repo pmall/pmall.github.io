@@ -14,14 +14,8 @@ tags:
   - "smolagents"
   - "data science"
 ---
-Dans le cadre de mon exploration de l'IA, je développe **smolanalyst**, un agent IA open-source destiné à assister les data scientists dans l'analyse et la visualisation de données.
+J'ai développé **smolanalyst** comme une expérimentation autour de l'analyse et de la visualisation de données assistées par IA.
 
-Smolanalyst repose sur [smolagents de Hugging Face](https://huggingface.co/docs/smolagents), un agent IA capable de générer et d'exécuter des blocs de code Python.
-Je teste différentes approches pour enrichir ses fonctionnalités et en faire un agent polyvalent pour l'analyse de données.
+Il repose sur [smolagents de Hugging Face](https://huggingface.co/docs/smolagents) et se concentre sur la génération et l'exécution de code Python pour des workflows fondés sur Pandas et Matplotlib. Mon objectif était de rendre ce type d'agent vraiment pratique en ligne de commande, avec une interface plus sûre et plus accessible pour les tâches d'analyse courantes.
 
-Actuellement, smolanalyst prend en charge Pandas et Matplotlib, lui permettant de produire et d'exécuter des snippets Python pour la manipulation et la visualisation de données.
-Mon objectif est de fournir une interface en ligne de commande sécurisée et facile à utiliser afin d'améliorer l'accessibilité et l'expérience utilisateur.
-
-Ce projet est une expérimentation continue visant à explorer de nouvelles solutions pour rendre l'analyse de données assistée par IA plus efficace et pratique.
-
-Je développe également **novagent**, ma propre bibliothèque d'agents de code. Ce projet vise à créer un framework flexible et extensible pour construire des assistants de programmation basés sur l'IA, complétant ainsi mon travail sur smolanalyst tout en explorant différents aspects du développement assisté par IA.
+En parallèle, j'ai aussi développé **novagent**, ma propre bibliothèque d'agents de code. Elle m'a servi de base plus flexible pour expérimenter sur le design d'agents et compléter le travail mené sur smolanalyst.
